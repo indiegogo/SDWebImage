@@ -142,7 +142,7 @@ typedef void(^SDWebImageQueryCompletedBlock)(UIImage *image, SDImageCacheType ca
 
 /**
  * Clear all disk cached images. Non-blocking method - returns immediately.
- * @param completionBlock An block that should be executed after cache expiration completes (optional)
+ * @param completion An block that should be executed after cache expiration completes (optional)
  */
 - (void)clearDiskOnCompletion:(void (^)())completion;
 
