@@ -11,7 +11,7 @@
 #if !COCOAPODS
 #import "webp/decode.h"
 #else
-#import "libwebp/webp/decode.h"
+#import "webp/decode.h"
 #endif
 
 // Callback for CGDataProviderRelease
